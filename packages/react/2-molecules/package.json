@@ -8,6 +8,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "@ab.poc/atoms": "^0.0.1",
     "@testing-library/react": "13.3.0",
     "@types/jest": "^27.0.3",
     "@types/react": "^17.0.14",

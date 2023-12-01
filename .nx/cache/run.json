@@ -1,0 +1,32 @@
+{
+  "run": {
+    "command": "lerna run build",
+    "startTime": "2023-12-01T00:18:09.613Z",
+    "endTime": "2023-12-01T00:18:13.465Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "@ab.poc/atoms:build",
+      "target": "build",
+      "projectName": "@ab.poc/atoms",
+      "hash": "16729130788779435382",
+      "startTime": "2023-12-01T00:18:09.627Z",
+      "endTime": "2023-12-01T00:18:11.667Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "@ab.poc/molecules:build",
+      "target": "build",
+      "projectName": "@ab.poc/molecules",
+      "hash": "3244985949629042653",
+      "startTime": "2023-12-01T00:18:11.669Z",
+      "endTime": "2023-12-01T00:18:13.464Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
+}

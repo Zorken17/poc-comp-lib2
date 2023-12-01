@@ -1,0 +1,140 @@
+{
+  "version": "6.0",
+  "nxVersion": "17.1.3",
+  "deps": {
+    "lerna": "^8.0.0"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".gitignore",
+        "hash": "3253381264581933724"
+      },
+      {
+        "file": ".nx/cache/d/daemon.log",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": ".nx/cache/d/server-process.json",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "lerna.json",
+        "hash": "8382986305556671819"
+      },
+      {
+        "file": "nx.json",
+        "hash": "16178097230330161632"
+      },
+      {
+        "file": "package.json",
+        "hash": "14147222994778180562"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "6836804295772289340"
+      }
+    ],
+    "projectFileMap": {
+      "@ab.poc/molecules": [
+        {
+          "file": "packages/react/2-molecules/package.json",
+          "hash": "18416415941210314994",
+          "deps": [
+            "@ab.poc/atoms",
+            "npm:@testing-library/react",
+            "npm:@types/jest",
+            "npm:@types/react",
+            "npm:jest",
+            "npm:react",
+            "npm:react-dom",
+            "npm:rollup",
+            "npm:rollup-plugin-typescript2",
+            "npm:ts-jest",
+            "npm:tslib",
+            "npm:typescript",
+            "npm:rimraf"
+          ]
+        },
+        {
+          "file": "packages/react/2-molecules/rollup.config.js",
+          "hash": "4982924057761634275"
+        },
+        {
+          "file": "packages/react/2-molecules/src/Form/Form.tsx",
+          "hash": "1109489671386484571"
+        },
+        {
+          "file": "packages/react/2-molecules/src/Form/index.ts",
+          "hash": "11837007818391953528"
+        },
+        {
+          "file": "packages/react/2-molecules/src/index.ts",
+          "hash": "11837007818391953528"
+        },
+        {
+          "file": "packages/react/2-molecules/tsconfig.json",
+          "hash": "1997421591363483506"
+        },
+        {
+          "file": "packages/react/2-molecules/tsconfig.lib.json",
+          "hash": "12065603132550339980"
+        },
+        {
+          "file": "packages/react/2-molecules/tsconfig.spec.json",
+          "hash": "6512608057909581835"
+        }
+      ],
+      "@ab.poc/atoms": [
+        {
+          "file": "packages/react/1-atoms/package.json",
+          "hash": "2956825451704432775",
+          "deps": [
+            "npm:@testing-library/react",
+            "npm:@types/jest",
+            "npm:@types/react",
+            "npm:jest",
+            "npm:react",
+            "npm:react-dom",
+            "npm:rollup",
+            "npm:rollup-plugin-typescript2",
+            "npm:ts-jest",
+            "npm:tslib",
+            "npm:typescript",
+            "npm:rimraf"
+          ]
+        },
+        {
+          "file": "packages/react/1-atoms/rollup.config.js",
+          "hash": "4982924057761634275"
+        },
+        {
+          "file": "packages/react/1-atoms/src/Button/Button.tsx",
+          "hash": "14233237480949549760"
+        },
+        {
+          "file": "packages/react/1-atoms/src/Button/index.ts",
+          "hash": "13071534322901307428"
+        },
+        {
+          "file": "packages/react/1-atoms/src/index.ts",
+          "hash": "13071534322901307428"
+        },
+        {
+          "file": "packages/react/1-atoms/tsconfig.json",
+          "hash": "1997421591363483506"
+        },
+        {
+          "file": "packages/react/1-atoms/tsconfig.lib.json",
+          "hash": "12065603132550339980"
+        },
+        {
+          "file": "packages/react/1-atoms/tsconfig.spec.json",
+          "hash": "6512608057909581835"
+        }
+      ]
+    }
+  }
+}

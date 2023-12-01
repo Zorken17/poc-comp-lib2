@@ -3,5 +3,5 @@ interface ButtonProps {
 }
 
 export const Button: React.FC<ButtonProps> = ({ label }) => {
-  return <button style={{ background: 'Green' }}>{label}</button>;
+  return <button style={{ background: 'Blue' }}>{label}</button>;
 };

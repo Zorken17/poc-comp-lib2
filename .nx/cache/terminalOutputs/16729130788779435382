@@ -1,0 +1,8 @@
+[2K[1G[33mwarning[39m package.json: No license field
+[2K[1G[2m$ rimraf dist && rollup --config[22m
+[36m
+[1msrc/index.ts[22m → [1mdist[22m...[39m
+[1m[33m(!) Unresolved dependencies[39m[22m
+[90mhttps://rollupjs.org/guide/en/#warning-treating-module-as-external-dependency[39m
+[1mreact/jsx-runtime[22m (imported by src/Button/Button.tsx)
+[32mcreated [1mdist[22m in [1m246ms[22m[39m

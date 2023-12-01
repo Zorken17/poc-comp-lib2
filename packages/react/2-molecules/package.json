@@ -1,6 +1,6 @@
 {
   "name": "@ab.poc/molecules",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -8,7 +8,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "@ab.poc/atoms": "^0.0.1",
+    "@ab.poc/atoms": "^1.0.0",
     "@testing-library/react": "13.3.0",
     "@types/jest": "^27.0.3",
     "@types/react": "^17.0.14",
